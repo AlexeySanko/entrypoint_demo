@@ -6,3 +6,6 @@ def mallet():
 
 def cuttingboard():
   print "thin and flat - useful as a work surface"
+  
+def rewrited_pot():
+  print "new ideas: large and deep - useful for soups"

@@ -61,6 +61,7 @@ setup(
             'my_knife = epd_plugin.tools:knife',
             'my_mallet = epd_plugin.tools:mallet',
             'my_cuttingboard = epd_plugin.tools:cuttingboard',
+            'my_pot = epd_plugin.tools:rewrited_pot',
         ],
     },
 )

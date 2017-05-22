@@ -60,7 +60,7 @@ my_tools.my_knife()
 
 The Python code we used was the same in both tests, but the results were
 significantly different. Installing the `epd_plugin` package changed the content
-of `epd_main.my_tools` by adding more tools! That's cool. You can design a
+of `epd_main.my_tools` by adding more tools or changing existing! That's cool. You can design a
 package to be extended by another package. No need to change any code or
 **configuration**. All you do is `pip install` a package. That's awesome.
 
