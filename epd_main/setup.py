@@ -15,7 +15,8 @@ setup(
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
     #version='0.1.0',
-    use_scm_version=True,
+    #use_scm_version=True,
+    use_scm_version = {"root": "..", "relative_to": __file__},
     setup_requires=['setuptools_scm'],
 
     description='a simple Python entrypoint demonstration',
